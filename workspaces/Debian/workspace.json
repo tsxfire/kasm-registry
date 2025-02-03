@@ -1,9 +1,9 @@
 {
     "friendly_name": "Debian-Custom",
-    "image_src": "debian-custom.png",
+    "image_src": "NerdsworkLogo.png",
     "description": "NerdsWork Custom Debian",
-    "cores": 2,
-    "memory": 2768,
+    "cores": 4,
+    "memory": 8192,
     "gpu_count": 0,
     "cpu_allocation_method": "Inherit",
     "docker_registry": "https://index.docker.io/v1/",
@@ -13,7 +13,7 @@
     "require_gpu": false,
     "enabled": true,
     "image_type": "Container",
-    "name": "docker.io/tsxfire/kasm-debian",
+    "name": "tsxfire/kasm-debian",
     "architecture": [
       "amd64"
     ]
