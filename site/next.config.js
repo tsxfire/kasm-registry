@@ -2,11 +2,11 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
-    icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    name: 'NerdsWork Registry',
+    description: 'The NerdsWork Kasm supported workspaces.',
+    icon: 'https://tsxfire.github.io/kasm-registry/1.1/NerdsworkLogo.png',
+    listUrl: 'https://tsxfire.github.io/kasm-registry/',
+    contactUrl: 'https://github.com/tsxfire/kasm-registry/issues',
   },
   reactStrictMode: true,
   swcMinify: true,
